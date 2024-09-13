@@ -22,3 +22,6 @@ variable "ingress_cidr_blocks" {
 variable "protocol" {
     default = "tcp"
 }
+variable "instance_type" {
+    default = "t3.micro"
+}
